@@ -1,0 +1,16 @@
+PODS:
+  - DZModelA (0.1.0)
+
+DEPENDENCIES:
+  - DZModelA (from `../`)
+
+EXTERNAL SOURCES:
+  DZModelA:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DZModelA: 3018266a04e1157f24e832ce43091c74f55cfab2
+
+PODFILE CHECKSUM: 951c45c4d23364ad77cc4c71cf5028bbf18a99b4
+
+COCOAPODS: 1.11.2

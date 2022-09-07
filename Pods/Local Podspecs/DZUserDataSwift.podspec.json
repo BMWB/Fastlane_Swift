@@ -1,0 +1,34 @@
+{
+  "name": "DZUserDataSwift",
+  "version": "0.1.0",
+  "summary": "A short description of DZUserDataSwift.",
+  "homepage": "https://github.com/17972497/DZUserDataSwift",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wangtianji": "wangtianji@kanzhun.com"
+  },
+  "source": {
+    "git": ""
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "pod_target_xcconfig": {
+    "ENABLE_BITCODE": "NO"
+  },
+  "source_files": "DZUserDataSwift/Classes/**/*",
+  "dependencies": {
+    "SQLite.swift": [
+      "0.13.0"
+    ],
+    "SwiftyUserDefaults": [
+      "5.3.0"
+    ],
+    "KeychainAccess": [
+      "4.2.2"
+    ]
+  }
+}

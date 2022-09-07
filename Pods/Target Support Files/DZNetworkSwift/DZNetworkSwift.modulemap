@@ -1,0 +1,6 @@
+module DZNetworkSwift {
+  umbrella header "DZNetworkSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_DZKoinProtocols_Tests {
+  umbrella header "Pods-DZKoinProtocols_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

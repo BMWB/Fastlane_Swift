@@ -1,0 +1,50 @@
+{
+  "name": "DZNetwork",
+  "version": "0.1.0",
+  "summary": "DZNetwork 网络模块",
+  "description": "网络模块 用于对网络的封装",
+  "homepage": "https://www.dianzhangzhipin.com/",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wangzhenxing": "wangzhenxing@kanzhun.com"
+  },
+  "source": {
+    "git": "git@git.kanzhun-inc.com:rd9/managerzp.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "pod_target_xcconfig": {
+    "ENABLE_BITCODE": "NO"
+  },
+  "source_files": "DZNetwork/Classes/**/*",
+  "dependencies": {
+    "DZUserData": [
+
+    ],
+    "DZThirdLib": [
+
+    ],
+    "DZKoinSwift": [
+
+    ],
+    "DZKoinProtocols": [
+
+    ]
+  },
+  "frameworks": [
+    "UIKit",
+    "Foundation",
+    "CoreFoundation"
+  ],
+  "libraries": [
+    "z",
+    "sqlite3",
+    "c++"
+  ],
+  "prefix_header_contents": "#ifdef __OBJC__\n#pragma clang diagnostic push\n#pragma clang diagnostic ignored \"-Wstrict-prototypes\"\n\n#import <AFNetworking/AFNetworking.h>\n#import <KZExtensions/Extension.h>\n#import <KZLogger/KZLogger.h>\n\n#pragma clang diagnostic pop\n\n#import <DZUserData/UserConfig.h>\n#import \"DZUserData/AppMacro.h\"\n#import \"SPEnvironments.h\"\n\n#endif"
+}

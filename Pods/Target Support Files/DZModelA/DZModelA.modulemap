@@ -1,0 +1,6 @@
+module DZModelA {
+  umbrella header "DZModelA-umbrella.h"
+
+  export *
+  module * { export * }
+}

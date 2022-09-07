@@ -1,0 +1,26 @@
+{
+  "name": "DZKoinSwift",
+  "version": "0.1.0",
+  "summary": "A short description of DZKoinSwift.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/17972497/DZKoinSwift",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "17972497": "wangtianji@kanzhun.com"
+  },
+  "source": {
+    "git": "https://github.com/17972497/DZKoinSwift.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "xcconfig": {
+    "VALID_ARCHS": "x86_64 armv7 arm64"
+  },
+  "source_files": "DZKoinSwift/Classes/**/*",
+  "static_framework": true
+}

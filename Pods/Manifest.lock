@@ -1,0 +1,90 @@
+PODS:
+  - Alamofire (5.4.4)
+  - Device (3.2.1)
+  - DZKoinProtocols (0.1.0)
+  - DZKoinSwift (0.1.0)
+  - DZModelA (0.1.0):
+    - DZKoinProtocols
+    - DZKoinSwift
+  - DZNetworkSwift (0.1.0):
+    - Moya
+    - ObjectMapper
+    - SwiftyJSON
+  - Moya (15.0.0):
+    - Moya/Core (= 15.0.0)
+  - Moya/Core (15.0.0):
+    - Alamofire (~> 5.0)
+  - ObjectMapper (4.2.0)
+  - SwifterSwift (5.2.0):
+    - SwifterSwift/AppKit (= 5.2.0)
+    - SwifterSwift/CoreAnimation (= 5.2.0)
+    - SwifterSwift/CoreGraphics (= 5.2.0)
+    - SwifterSwift/CoreLocation (= 5.2.0)
+    - SwifterSwift/Dispatch (= 5.2.0)
+    - SwifterSwift/Foundation (= 5.2.0)
+    - SwifterSwift/MapKit (= 5.2.0)
+    - SwifterSwift/SceneKit (= 5.2.0)
+    - SwifterSwift/SpriteKit (= 5.2.0)
+    - SwifterSwift/StoreKit (= 5.2.0)
+    - SwifterSwift/SwiftStdlib (= 5.2.0)
+    - SwifterSwift/UIKit (= 5.2.0)
+  - SwifterSwift/AppKit (5.2.0)
+  - SwifterSwift/CoreAnimation (5.2.0)
+  - SwifterSwift/CoreGraphics (5.2.0)
+  - SwifterSwift/CoreLocation (5.2.0)
+  - SwifterSwift/Dispatch (5.2.0)
+  - SwifterSwift/Foundation (5.2.0)
+  - SwifterSwift/MapKit (5.2.0)
+  - SwifterSwift/SceneKit (5.2.0)
+  - SwifterSwift/SpriteKit (5.2.0)
+  - SwifterSwift/StoreKit (5.2.0)
+  - SwifterSwift/SwiftStdlib (5.2.0)
+  - SwifterSwift/UIKit (5.2.0)
+  - SwiftHash (2.0.2)
+  - SwiftyJSON (5.0.1)
+
+DEPENDENCIES:
+  - Device
+  - DZKoinProtocols (from `./DZKoinProtocols`)
+  - DZKoinSwift (from `./DZKoinSwift`)
+  - DZModelA (from `./DZModelA`)
+  - DZNetworkSwift (from `./DZNetworkSwift`)
+  - SwifterSwift
+  - SwiftHash
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - Device
+    - Moya
+    - ObjectMapper
+    - SwifterSwift
+    - SwiftHash
+    - SwiftyJSON
+
+EXTERNAL SOURCES:
+  DZKoinProtocols:
+    :path: "./DZKoinProtocols"
+  DZKoinSwift:
+    :path: "./DZKoinSwift"
+  DZModelA:
+    :path: "./DZModelA"
+  DZNetworkSwift:
+    :path: "./DZNetworkSwift"
+
+SPEC CHECKSUMS:
+  Alamofire: f3b09a368f1582ab751b3fff5460276e0d2cf5c9
+  Device: 0738862dd8a30856b4bd9e21cb9b728873d21392
+  DZKoinProtocols: 086f84033f61cc87453f8b8589cf59c97540c4c0
+  DZKoinSwift: 89229126a1cd5892fbc900cee4bbc51283cde23b
+  DZModelA: 7c73e33a47f96551b9faaf2418e041c9ad8cd686
+  DZNetworkSwift: 10a3997fcb3e279708d46cfeeef19556cacf0ea2
+  Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
+  ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
+  SwifterSwift: 334181863c416882d97b7a60c05054d9e4d799e2
+  SwiftHash: 6d312abe61c8359bdef8d0093642f3a70b1c17ba
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+
+PODFILE CHECKSUM: b416c0bb4f278d04b4ef46fdca5fede12c4dc816
+
+COCOAPODS: 1.11.3

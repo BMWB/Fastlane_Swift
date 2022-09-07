@@ -1,0 +1,898 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		059117A4E3BFF60FAE435A6AAC8CD4D0 /* GlobalContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8178A06A5E96627299D9CDEF10BE7C19 /* GlobalContext.swift */; };
+		06279459614B3215BC89AE24C89E3A4B /* Qualifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA94CF92F180ED5103709C2E2135E49E /* Qualifier.swift */; };
+		10DB69E17D15BED6AA3052F6F5816B3E /* KoinErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB509768364DFEBE539BE19D229E58AD /* KoinErrors.swift */; };
+		1CF042BD08B032C69ADC14C9594B6009 /* Pods-DZKoinSwift_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F3939B0053F071AF06AD36E073989B5C /* Pods-DZKoinSwift_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20F099407160217F0DD4382F1353C253 /* Pods-DZKoinSwift_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F94984B0DF620D0ABAD007B879D4F6B6 /* Pods-DZKoinSwift_Example-dummy.m */; };
+		253AAE4AD7A1BDF2A0FF479AD1C6F335 /* ModuleExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA571FDE4748453B162900A0D924ABCD /* ModuleExt.swift */; };
+		26ADDB7D43CB1A00413A4C101F71F67B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		2C8196001A271EC066E6F0A91E7BE04C /* Dsl.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5D26074559AF23559016FF0B225FF5 /* Dsl.swift */; };
+		4EB4A8DD4E657409594D2EDE293511EA /* ModuleDeclaration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46339E5BC2942EDBED5C2A8DA326F1B2 /* ModuleDeclaration.swift */; };
+		5245CE21055A40A5E21B4ABCA1DF5346 /* Pods-DZKoinSwift_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6313F4F5179F0C7166C35ED0F8EE5EE1 /* Pods-DZKoinSwift_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		582EDE261D8AE41AB4E64D67D6143A42 /* BeanRegistry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BD88433FC11FD3CAEB404BB9A710F5 /* BeanRegistry.swift */; };
+		62A7A72A16268BF7E470E21272380A0E /* BeanDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934E7E26A92380E147077F5F856A4BD4 /* BeanDefinition.swift */; };
+		640E02ACB214194FABA5B22068D835A3 /* Pods-DZKoinSwift_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7726252BB15EFBC15931007B19FF7A /* Pods-DZKoinSwift_Tests-dummy.m */; };
+		64BF09C8684F3060970573A03C29C458 /* KoinConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D513D3DDBD1E7B9E94FB5F524571E8 /* KoinConfig.swift */; };
+		693BEAC6A9442A224465D0F91451C61C /* DefinitionFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3131B372E511302887A07C581ECF53F3 /* DefinitionFactory.swift */; };
+		780CBC61F92C29FBB6CB14FE64D91AA3 /* DZKoinSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 70024FC90AA32C2154420704E278DF34 /* DZKoinSwift-dummy.m */; };
+		88259000557B9D3B422A369C92D05F42 /* Definition.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CA58FDB579FA7907B4B8C676534C1B /* Definition.swift */; };
+		A9BCFE1F33EE6C186A00F65988A0A5D0 /* Module.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27465AA56E01E74CA18B268DF228BE24 /* Module.swift */; };
+		AD39B7A3219DB693CACCB77889072AEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B861F583607A206B43774A40E3E1B971 /* DZKoinSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 05A038B97A0685255B0B64E3E653E21D /* DZKoinSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB4D640669097550260DD15E45CB3C1E /* Kind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E2DB35152C99651100AABB57911C58 /* Kind.swift */; };
+		CEC05BE5DEEA024B60C5BD01F6A0656A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		DA61FAD20B7C951D8E55ACA7CFB2E0C3 /* Koin.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3994EBDDC49A7A141B99FD5DA83C40A /* Koin.swift */; };
+		F7044FC86927A65748CE4B6BF92F3DD3 /* KoinInjectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E6883D85FBA3DF181E668D2E6723C7 /* KoinInjectable.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34FBCC238FAC6A1A211B14AC03894D6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C88EE5773A065D6AC84E0BC8D55EBBFD;
+			remoteInfo = DZKoinSwift;
+		};
+		4AC0A4CEE9D43B4C1A6471D064765FC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0A13BB2AF1A1D28A5D7A04765807BED;
+			remoteInfo = "Pods-DZKoinSwift_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05A038B97A0685255B0B64E3E653E21D /* DZKoinSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DZKoinSwift-umbrella.h"; sourceTree = "<group>"; };
+		0E2C5E763B91BA5B2E05164917502429 /* DZKoinSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DZKoinSwift-Info.plist"; sourceTree = "<group>"; };
+		10E2DB35152C99651100AABB57911C58 /* Kind.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Kind.swift; sourceTree = "<group>"; };
+		117EE180A077EBFC377FC83388FDC212 /* DZKoinSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DZKoinSwift.modulemap; sourceTree = "<group>"; };
+		12AD05A57709941AFD3ACCD5FFA75B34 /* Pods-DZKoinSwift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DZKoinSwift_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1440EA7C9ABCE59F170B9DC6B8338DE4 /* DZKoinSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DZKoinSwift.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1DD4FBEEC77AFC6045CCC06B9630465B /* DZKoinSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DZKoinSwift-prefix.pch"; sourceTree = "<group>"; };
+		228E8FD3E71F0CA9AF47E5F99D46211B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		27465AA56E01E74CA18B268DF228BE24 /* Module.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Module.swift; sourceTree = "<group>"; };
+		2DF43C87CD0A029B586679C4F58916A7 /* Pods-DZKoinSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DZKoinSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2EE03BCF9D3A50EEFE881AC31828F3B9 /* DZKoinSwift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DZKoinSwift; path = DZKoinSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3131B372E511302887A07C581ECF53F3 /* DefinitionFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DefinitionFactory.swift; sourceTree = "<group>"; };
+		45BD88433FC11FD3CAEB404BB9A710F5 /* BeanRegistry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BeanRegistry.swift; sourceTree = "<group>"; };
+		46339E5BC2942EDBED5C2A8DA326F1B2 /* ModuleDeclaration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ModuleDeclaration.swift; sourceTree = "<group>"; };
+		4DECECD7DBDF6F75A77E1ED50E2C9335 /* Pods-DZKoinSwift_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DZKoinSwift_Example-frameworks.sh"; sourceTree = "<group>"; };
+		51E3009ED36BF7A849C6C7866C8AA610 /* Pods-DZKoinSwift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DZKoinSwift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		53578819F1DEC393AB739A95C660272E /* Pods-DZKoinSwift_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DZKoinSwift_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		58CBB21F6E8FBA44A2887A3C5596DD08 /* Pods-DZKoinSwift_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DZKoinSwift_Example-Info.plist"; sourceTree = "<group>"; };
+		5A73058CEC1F2FAEB15FF75F89ED2866 /* Pods-DZKoinSwift_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DZKoinSwift_Tests"; path = Pods_DZKoinSwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6313F4F5179F0C7166C35ED0F8EE5EE1 /* Pods-DZKoinSwift_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DZKoinSwift_Example-umbrella.h"; sourceTree = "<group>"; };
+		6E7726252BB15EFBC15931007B19FF7A /* Pods-DZKoinSwift_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DZKoinSwift_Tests-dummy.m"; sourceTree = "<group>"; };
+		70024FC90AA32C2154420704E278DF34 /* DZKoinSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DZKoinSwift-dummy.m"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7581B5EDCFBF3FE81A123547205D57AE /* Pods-DZKoinSwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DZKoinSwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		8178A06A5E96627299D9CDEF10BE7C19 /* GlobalContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GlobalContext.swift; sourceTree = "<group>"; };
+		825943226BB0D6B88E9058ABBE96F2E5 /* DZKoinSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DZKoinSwift.debug.xcconfig; sourceTree = "<group>"; };
+		8D952C641BBB383A49A777E4ED6B3BDA /* Pods-DZKoinSwift_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DZKoinSwift_Example"; path = Pods_DZKoinSwift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		934E7E26A92380E147077F5F856A4BD4 /* BeanDefinition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BeanDefinition.swift; sourceTree = "<group>"; };
+		9A9F1268992C9DC9BE6BE0F1901A8ED7 /* DZKoinSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DZKoinSwift.release.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2CA58FDB579FA7907B4B8C676534C1B /* Definition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Definition.swift; sourceTree = "<group>"; };
+		A7C7335C90AB044E82361D97A722CC07 /* Pods-DZKoinSwift_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DZKoinSwift_Example.modulemap"; sourceTree = "<group>"; };
+		AB509768364DFEBE539BE19D229E58AD /* KoinErrors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KoinErrors.swift; sourceTree = "<group>"; };
+		B5A697C06C552FE1495652730848FCFE /* Pods-DZKoinSwift_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DZKoinSwift_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BE5D26074559AF23559016FF0B225FF5 /* Dsl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Dsl.swift; sourceTree = "<group>"; };
+		C3D513D3DDBD1E7B9E94FB5F524571E8 /* KoinConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KoinConfig.swift; sourceTree = "<group>"; };
+		C8F0BEBF32E49FD3F3F8BD8BD044EAC3 /* Pods-DZKoinSwift_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DZKoinSwift_Tests-Info.plist"; sourceTree = "<group>"; };
+		CA571FDE4748453B162900A0D924ABCD /* ModuleExt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ModuleExt.swift; sourceTree = "<group>"; };
+		D481BED2432D7CD9B959B0599F8A8287 /* Pods-DZKoinSwift_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DZKoinSwift_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D5E6883D85FBA3DF181E668D2E6723C7 /* KoinInjectable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KoinInjectable.swift; sourceTree = "<group>"; };
+		D6F18AE35C46326B05AB6D60F1E807C3 /* Pods-DZKoinSwift_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DZKoinSwift_Tests.modulemap"; sourceTree = "<group>"; };
+		E3994EBDDC49A7A141B99FD5DA83C40A /* Koin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Koin.swift; sourceTree = "<group>"; };
+		EA94CF92F180ED5103709C2E2135E49E /* Qualifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Qualifier.swift; sourceTree = "<group>"; };
+		F3939B0053F071AF06AD36E073989B5C /* Pods-DZKoinSwift_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DZKoinSwift_Tests-umbrella.h"; sourceTree = "<group>"; };
+		F94984B0DF620D0ABAD007B879D4F6B6 /* Pods-DZKoinSwift_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DZKoinSwift_Example-dummy.m"; sourceTree = "<group>"; };
+		FA189C3C6F53F5744131C733F403242B /* Pods-DZKoinSwift_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DZKoinSwift_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		FB2BC38876B42340C3B260E3C8070ACA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4BE9E277BE36DE235168241B6035F995 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC05BE5DEEA024B60C5BD01F6A0656A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7EFC5263BFC8541EB50C8325BC9D09F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD39B7A3219DB693CACCB77889072AEE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF1890FEDE09DB1DE7C18E8CE67A8473 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26ADDB7D43CB1A00413A4C101F71F67B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10F010BD0D9C22839AE52A4E6B4D741F /* Pods-DZKoinSwift_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D6F18AE35C46326B05AB6D60F1E807C3 /* Pods-DZKoinSwift_Tests.modulemap */,
+				B5A697C06C552FE1495652730848FCFE /* Pods-DZKoinSwift_Tests-acknowledgements.markdown */,
+				53578819F1DEC393AB739A95C660272E /* Pods-DZKoinSwift_Tests-acknowledgements.plist */,
+				6E7726252BB15EFBC15931007B19FF7A /* Pods-DZKoinSwift_Tests-dummy.m */,
+				C8F0BEBF32E49FD3F3F8BD8BD044EAC3 /* Pods-DZKoinSwift_Tests-Info.plist */,
+				F3939B0053F071AF06AD36E073989B5C /* Pods-DZKoinSwift_Tests-umbrella.h */,
+				51E3009ED36BF7A849C6C7866C8AA610 /* Pods-DZKoinSwift_Tests.debug.xcconfig */,
+				12AD05A57709941AFD3ACCD5FFA75B34 /* Pods-DZKoinSwift_Tests.release.xcconfig */,
+			);
+			name = "Pods-DZKoinSwift_Tests";
+			path = "Target Support Files/Pods-DZKoinSwift_Tests";
+			sourceTree = "<group>";
+		};
+		122A258E649365C820D53FB2C721D9B4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3E9A1C0A66C734ABF20B5D1C9222716 /* Pods-DZKoinSwift_Example */,
+				10F010BD0D9C22839AE52A4E6B4D741F /* Pods-DZKoinSwift_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1F66749049FF0BA2BBD6EA3290D6F50E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF07473A4A8427F39075AE41003AD054 /* DZKoinSwift */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		30C45FAC4A4EF96ED8E0E810E21BAF01 /* Definition */ = {
+			isa = PBXGroup;
+			children = (
+				934E7E26A92380E147077F5F856A4BD4 /* BeanDefinition.swift */,
+				A2CA58FDB579FA7907B4B8C676534C1B /* Definition.swift */,
+				3131B372E511302887A07C581ECF53F3 /* DefinitionFactory.swift */,
+				10E2DB35152C99651100AABB57911C58 /* Kind.swift */,
+			);
+			name = Definition;
+			path = Definition;
+			sourceTree = "<group>";
+		};
+		41563C889FC09CEA355C7441FCFD3C02 /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				AB509768364DFEBE539BE19D229E58AD /* KoinErrors.swift */,
+			);
+			name = Error;
+			path = Error;
+			sourceTree = "<group>";
+		};
+		4EC9C4667671179017713C489314F421 /* Context */ = {
+			isa = PBXGroup;
+			children = (
+				8178A06A5E96627299D9CDEF10BE7C19 /* GlobalContext.swift */,
+			);
+			name = Context;
+			path = Context;
+			sourceTree = "<group>";
+		};
+		57814121EC337B34AB4CB43F2BDB2A0E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				117EE180A077EBFC377FC83388FDC212 /* DZKoinSwift.modulemap */,
+				70024FC90AA32C2154420704E278DF34 /* DZKoinSwift-dummy.m */,
+				0E2C5E763B91BA5B2E05164917502429 /* DZKoinSwift-Info.plist */,
+				1DD4FBEEC77AFC6045CCC06B9630465B /* DZKoinSwift-prefix.pch */,
+				05A038B97A0685255B0B64E3E653E21D /* DZKoinSwift-umbrella.h */,
+				825943226BB0D6B88E9058ABBE96F2E5 /* DZKoinSwift.debug.xcconfig */,
+				9A9F1268992C9DC9BE6BE0F1901A8ED7 /* DZKoinSwift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DZKoinSwift";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6C7344D92372875D00668C2008E4CDD6 /* Dsl */ = {
+			isa = PBXGroup;
+			children = (
+				BE5D26074559AF23559016FF0B225FF5 /* Dsl.swift */,
+				C3D513D3DDBD1E7B9E94FB5F524571E8 /* KoinConfig.swift */,
+				CA571FDE4748453B162900A0D924ABCD /* ModuleExt.swift */,
+			);
+			name = Dsl;
+			path = DZKoinSwift/Classes/Dsl;
+			sourceTree = "<group>";
+		};
+		8E46A037869CC3D8FFBF0F4B59D3B27F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1440EA7C9ABCE59F170B9DC6B8338DE4 /* DZKoinSwift.podspec */,
+				228E8FD3E71F0CA9AF47E5F99D46211B /* LICENSE */,
+				FB2BC38876B42340C3B260E3C8070ACA /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		8F0BF0F27E266B7DCAE4E4DD167DA135 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				E3994EBDDC49A7A141B99FD5DA83C40A /* Koin.swift */,
+				D5E6883D85FBA3DF181E668D2E6723C7 /* KoinInjectable.swift */,
+				4EC9C4667671179017713C489314F421 /* Context */,
+				30C45FAC4A4EF96ED8E0E810E21BAF01 /* Definition */,
+				41563C889FC09CEA355C7441FCFD3C02 /* Error */,
+				F62872D163191A482DD29CC55FA3018E /* Module */,
+				98C8160D9C91DC38E5B6710C2BCF98D4 /* Qualifier */,
+				DA044B0E5BDBDDE07DA08EF8EA733710 /* Registry */,
+			);
+			name = Core;
+			path = DZKoinSwift/Classes/Core;
+			sourceTree = "<group>";
+		};
+		98C8160D9C91DC38E5B6710C2BCF98D4 /* Qualifier */ = {
+			isa = PBXGroup;
+			children = (
+				EA94CF92F180ED5103709C2E2135E49E /* Qualifier.swift */,
+			);
+			name = Qualifier;
+			path = Qualifier;
+			sourceTree = "<group>";
+		};
+		BE7B90E945626A4AFE18A24A0A3DED8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2EE03BCF9D3A50EEFE881AC31828F3B9 /* DZKoinSwift */,
+				8D952C641BBB383A49A777E4ED6B3BDA /* Pods-DZKoinSwift_Example */,
+				5A73058CEC1F2FAEB15FF75F89ED2866 /* Pods-DZKoinSwift_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF07473A4A8427F39075AE41003AD054 /* DZKoinSwift */ = {
+			isa = PBXGroup;
+			children = (
+				8F0BF0F27E266B7DCAE4E4DD167DA135 /* Core */,
+				6C7344D92372875D00668C2008E4CDD6 /* Dsl */,
+				8E46A037869CC3D8FFBF0F4B59D3B27F /* Pod */,
+				57814121EC337B34AB4CB43F2BDB2A0E /* Support Files */,
+			);
+			name = DZKoinSwift;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1F66749049FF0BA2BBD6EA3290D6F50E /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				BE7B90E945626A4AFE18A24A0A3DED8E /* Products */,
+				122A258E649365C820D53FB2C721D9B4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3E9A1C0A66C734ABF20B5D1C9222716 /* Pods-DZKoinSwift_Example */ = {
+			isa = PBXGroup;
+			children = (
+				A7C7335C90AB044E82361D97A722CC07 /* Pods-DZKoinSwift_Example.modulemap */,
+				D481BED2432D7CD9B959B0599F8A8287 /* Pods-DZKoinSwift_Example-acknowledgements.markdown */,
+				FA189C3C6F53F5744131C733F403242B /* Pods-DZKoinSwift_Example-acknowledgements.plist */,
+				F94984B0DF620D0ABAD007B879D4F6B6 /* Pods-DZKoinSwift_Example-dummy.m */,
+				4DECECD7DBDF6F75A77E1ED50E2C9335 /* Pods-DZKoinSwift_Example-frameworks.sh */,
+				58CBB21F6E8FBA44A2887A3C5596DD08 /* Pods-DZKoinSwift_Example-Info.plist */,
+				6313F4F5179F0C7166C35ED0F8EE5EE1 /* Pods-DZKoinSwift_Example-umbrella.h */,
+				7581B5EDCFBF3FE81A123547205D57AE /* Pods-DZKoinSwift_Example.debug.xcconfig */,
+				2DF43C87CD0A029B586679C4F58916A7 /* Pods-DZKoinSwift_Example.release.xcconfig */,
+			);
+			name = "Pods-DZKoinSwift_Example";
+			path = "Target Support Files/Pods-DZKoinSwift_Example";
+			sourceTree = "<group>";
+		};
+		DA044B0E5BDBDDE07DA08EF8EA733710 /* Registry */ = {
+			isa = PBXGroup;
+			children = (
+				45BD88433FC11FD3CAEB404BB9A710F5 /* BeanRegistry.swift */,
+			);
+			name = Registry;
+			path = Registry;
+			sourceTree = "<group>";
+		};
+		F62872D163191A482DD29CC55FA3018E /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				27465AA56E01E74CA18B268DF228BE24 /* Module.swift */,
+				46339E5BC2942EDBED5C2A8DA326F1B2 /* ModuleDeclaration.swift */,
+			);
+			name = Module;
+			path = Module;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1937A9349CDE36056FE205F2399BD729 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B861F583607A206B43774A40E3E1B971 /* DZKoinSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EE790A2F87FFEB275343DFEC6BF1323 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5245CE21055A40A5E21B4ABCA1DF5346 /* Pods-DZKoinSwift_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE8C52BF5BC282A49ED1E1EC06E6AE32 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CF042BD08B032C69ADC14C9594B6009 /* Pods-DZKoinSwift_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A0A13BB2AF1A1D28A5D7A04765807BED /* Pods-DZKoinSwift_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51284F31EAB4F692F7BB8FAEC1CD0825 /* Build configuration list for PBXNativeTarget "Pods-DZKoinSwift_Example" */;
+			buildPhases = (
+				5EE790A2F87FFEB275343DFEC6BF1323 /* Headers */,
+				ACC06C6B96FAC9BEB494ED9FFDFDC6B6 /* Sources */,
+				4BE9E277BE36DE235168241B6035F995 /* Frameworks */,
+				01329A3762453E48F90069DD042DBAFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6233F6F9A12BCC7E266F070AB01136B9 /* PBXTargetDependency */,
+			);
+			name = "Pods-DZKoinSwift_Example";
+			productName = Pods_DZKoinSwift_Example;
+			productReference = 8D952C641BBB383A49A777E4ED6B3BDA /* Pods-DZKoinSwift_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		C88EE5773A065D6AC84E0BC8D55EBBFD /* DZKoinSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06209F90BE0274B71BD50455DCCF5125 /* Build configuration list for PBXNativeTarget "DZKoinSwift" */;
+			buildPhases = (
+				1937A9349CDE36056FE205F2399BD729 /* Headers */,
+				1AFBD5B20FABD5E681ABF2EA3B9A4B3E /* Sources */,
+				CF1890FEDE09DB1DE7C18E8CE67A8473 /* Frameworks */,
+				70C99ACCDE706BB2EAC5346C131E7508 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DZKoinSwift;
+			productName = DZKoinSwift;
+			productReference = 2EE03BCF9D3A50EEFE881AC31828F3B9 /* DZKoinSwift */;
+			productType = "com.apple.product-type.framework";
+		};
+		DA7C9FAD3DB4D3A2FAE0CC2A13EA3B5A /* Pods-DZKoinSwift_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAC98503116B91560349D633E4326E2F /* Build configuration list for PBXNativeTarget "Pods-DZKoinSwift_Tests" */;
+			buildPhases = (
+				FE8C52BF5BC282A49ED1E1EC06E6AE32 /* Headers */,
+				FDB374035A9947D5CCFD9528546DBE3A /* Sources */,
+				A7EFC5263BFC8541EB50C8325BC9D09F /* Frameworks */,
+				A3052380C19237F326F7421DB1CA9807 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14C8AA76EA3E776492FCA9CD103C647D /* PBXTargetDependency */,
+			);
+			name = "Pods-DZKoinSwift_Tests";
+			productName = Pods_DZKoinSwift_Tests;
+			productReference = 5A73058CEC1F2FAEB15FF75F89ED2866 /* Pods-DZKoinSwift_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = BE7B90E945626A4AFE18A24A0A3DED8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C88EE5773A065D6AC84E0BC8D55EBBFD /* DZKoinSwift */,
+				A0A13BB2AF1A1D28A5D7A04765807BED /* Pods-DZKoinSwift_Example */,
+				DA7C9FAD3DB4D3A2FAE0CC2A13EA3B5A /* Pods-DZKoinSwift_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01329A3762453E48F90069DD042DBAFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70C99ACCDE706BB2EAC5346C131E7508 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3052380C19237F326F7421DB1CA9807 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AFBD5B20FABD5E681ABF2EA3B9A4B3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62A7A72A16268BF7E470E21272380A0E /* BeanDefinition.swift in Sources */,
+				582EDE261D8AE41AB4E64D67D6143A42 /* BeanRegistry.swift in Sources */,
+				88259000557B9D3B422A369C92D05F42 /* Definition.swift in Sources */,
+				693BEAC6A9442A224465D0F91451C61C /* DefinitionFactory.swift in Sources */,
+				2C8196001A271EC066E6F0A91E7BE04C /* Dsl.swift in Sources */,
+				780CBC61F92C29FBB6CB14FE64D91AA3 /* DZKoinSwift-dummy.m in Sources */,
+				059117A4E3BFF60FAE435A6AAC8CD4D0 /* GlobalContext.swift in Sources */,
+				BB4D640669097550260DD15E45CB3C1E /* Kind.swift in Sources */,
+				DA61FAD20B7C951D8E55ACA7CFB2E0C3 /* Koin.swift in Sources */,
+				64BF09C8684F3060970573A03C29C458 /* KoinConfig.swift in Sources */,
+				10DB69E17D15BED6AA3052F6F5816B3E /* KoinErrors.swift in Sources */,
+				F7044FC86927A65748CE4B6BF92F3DD3 /* KoinInjectable.swift in Sources */,
+				A9BCFE1F33EE6C186A00F65988A0A5D0 /* Module.swift in Sources */,
+				4EB4A8DD4E657409594D2EDE293511EA /* ModuleDeclaration.swift in Sources */,
+				253AAE4AD7A1BDF2A0FF479AD1C6F335 /* ModuleExt.swift in Sources */,
+				06279459614B3215BC89AE24C89E3A4B /* Qualifier.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACC06C6B96FAC9BEB494ED9FFDFDC6B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20F099407160217F0DD4382F1353C253 /* Pods-DZKoinSwift_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDB374035A9947D5CCFD9528546DBE3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				640E02ACB214194FABA5B22068D835A3 /* Pods-DZKoinSwift_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14C8AA76EA3E776492FCA9CD103C647D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DZKoinSwift_Example";
+			target = A0A13BB2AF1A1D28A5D7A04765807BED /* Pods-DZKoinSwift_Example */;
+			targetProxy = 4AC0A4CEE9D43B4C1A6471D064765FC0 /* PBXContainerItemProxy */;
+		};
+		6233F6F9A12BCC7E266F070AB01136B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DZKoinSwift;
+			target = C88EE5773A065D6AC84E0BC8D55EBBFD /* DZKoinSwift */;
+			targetProxy = 34FBCC238FAC6A1A211B14AC03894D6C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		18B5931D054190E5797A0E2ADE144C10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 825943226BB0D6B88E9058ABBE96F2E5 /* DZKoinSwift.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DZKoinSwift/DZKoinSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DZKoinSwift/DZKoinSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DZKoinSwift/DZKoinSwift.modulemap";
+				PRODUCT_MODULE_NAME = DZKoinSwift;
+				PRODUCT_NAME = DZKoinSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4EF2127B4006B578978BCC3BD37DDCFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51E3009ED36BF7A849C6C7866C8AA610 /* Pods-DZKoinSwift_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DZKoinSwift_Tests/Pods-DZKoinSwift_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DZKoinSwift_Tests/Pods-DZKoinSwift_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		56D14B36A2A040FB6AF07890DD48D0EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12AD05A57709941AFD3ACCD5FFA75B34 /* Pods-DZKoinSwift_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DZKoinSwift_Tests/Pods-DZKoinSwift_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DZKoinSwift_Tests/Pods-DZKoinSwift_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		59D67C1A9AA1C38D13A1111405286121 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A9F1268992C9DC9BE6BE0F1901A8ED7 /* DZKoinSwift.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DZKoinSwift/DZKoinSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DZKoinSwift/DZKoinSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DZKoinSwift/DZKoinSwift.modulemap";
+				PRODUCT_MODULE_NAME = DZKoinSwift;
+				PRODUCT_NAME = DZKoinSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E666C791ADE956E3CB4C184EDE31403F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DF43C87CD0A029B586679C4F58916A7 /* Pods-DZKoinSwift_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DZKoinSwift_Example/Pods-DZKoinSwift_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DZKoinSwift_Example/Pods-DZKoinSwift_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FC7F555957441238088923690A6E89DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7581B5EDCFBF3FE81A123547205D57AE /* Pods-DZKoinSwift_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DZKoinSwift_Example/Pods-DZKoinSwift_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DZKoinSwift_Example/Pods-DZKoinSwift_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06209F90BE0274B71BD50455DCCF5125 /* Build configuration list for PBXNativeTarget "DZKoinSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B5931D054190E5797A0E2ADE144C10 /* Debug */,
+				59D67C1A9AA1C38D13A1111405286121 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51284F31EAB4F692F7BB8FAEC1CD0825 /* Build configuration list for PBXNativeTarget "Pods-DZKoinSwift_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC7F555957441238088923690A6E89DB /* Debug */,
+				E666C791ADE956E3CB4C184EDE31403F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAC98503116B91560349D633E4326E2F /* Build configuration list for PBXNativeTarget "Pods-DZKoinSwift_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EF2127B4006B578978BCC3BD37DDCFD /* Debug */,
+				56D14B36A2A040FB6AF07890DD48D0EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

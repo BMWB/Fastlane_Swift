@@ -1,0 +1,30 @@
+{
+  "name": "DZCarthage",
+  "version": "0.1.0",
+  "summary": "A short description of DZCarthage.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/17972497/DZCarthage",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "17972497": "wangtianji@kanzhun.com"
+  },
+  "source": {
+    "git": "https://github.com/17972497/DZCarthage.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": null
+  },
+  "xcconfig": {
+    "VALID_ARCHS": "x86_64 armv7 arm64"
+  },
+  "frameworks": "SystemConfiguration",
+  "ios": {
+    "frameworks": "UIKit"
+  },
+  "requires_arc": true,
+  "vendored_frameworks": "DZCarthage/Classes/*.xcframework"
+}

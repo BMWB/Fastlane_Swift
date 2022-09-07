@@ -1,0 +1,16 @@
+PODS:
+  - DZKoinProtocols (0.1.0)
+
+DEPENDENCIES:
+  - DZKoinProtocols (from `../`)
+
+EXTERNAL SOURCES:
+  DZKoinProtocols:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DZKoinProtocols: a9114079695416ae5f859bf2c72f893df88b7cbf
+
+PODFILE CHECKSUM: 8ede24e465fb9b8304a5eafe57a67cbca08004ef
+
+COCOAPODS: 1.11.2

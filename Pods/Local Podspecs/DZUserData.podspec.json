@@ -1,0 +1,50 @@
+{
+  "name": "DZUserData",
+  "version": "0.1.0",
+  "summary": "DZUserData 用户模块",
+  "description": "用户模块 用于用户数据存储",
+  "homepage": "https://www.dianzhangzhipin.com/",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wangzhenxing": "wangzhenxing@kanzhun.com"
+  },
+  "source": {
+    "git": "git@git.kanzhun-inc.com:rd9/managerzp.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "pod_target_xcconfig": {
+    "ENABLE_BITCODE": "NO"
+  },
+  "source_files": [
+    "DZUserData/Classes/**/*"
+  ],
+  "resources": [
+    "DZUserData/Assets/**/*.{xcasset,bundle}"
+  ],
+  "resource_bundles": {
+    "DZUserData": [
+      "DZUserData/Assets/**/*.{xib,xml,png,pdf}"
+    ]
+  },
+  "dependencies": {
+    "DZThirdLib": [
+
+    ]
+  },
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "libraries": [
+    "z",
+    "sqlite3",
+    "c++"
+  ],
+  "prefix_header_contents": "#ifdef __OBJC__\n#pragma clang diagnostic push\n#pragma clang diagnostic ignored \"-Wstrict-prototypes\"\n\n#import <KZExtensions/Extension.h>\n#import <KZLogger/KZLogger.h>\n\n#pragma clang diagnostic pop\n\n#import <UIKit/UIKit.h>\n#import \"MTLModel+JSONMap.h\"\n#import \"NSDictionary+URL.h\"\n#import \"NSString+URL.h\"\n#import \"NSMutableDictionary+SafeSet.h\"\n#import \"NSString+Digest.h\"\n#import \"UserConfig.h\"\n#import \"AppMacro.h\"\n\n#endif"
+}

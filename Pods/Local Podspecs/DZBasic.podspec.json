@@ -1,0 +1,71 @@
+{
+  "name": "DZBasic",
+  "version": "0.1.0",
+  "summary": "ManagerZP DZBasic tools",
+  "description": "ManagerZP DZBasic tools",
+  "homepage": "https://www.dianzhangzhipin.com/",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wangzhenxing": "wangzhenxing@kanzhun.com"
+  },
+  "source": {
+    "git": "git@git.kanzhun-inc.com:rd9/managerzp.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "pod_target_xcconfig": {
+    "ENABLE_BITCODE": "NO"
+  },
+  "source_files": "DZBasic/Classes/**/*",
+  "resources": [
+    "DZBasic/Bundle/**/*.{xcasset,bundle}"
+  ],
+  "resource_bundles": {
+    "DZBasic": [
+      "DZBasic/Assets/**/*.{xib,xml,gif,jpg,jpeg,pdf,png,json,plist,js,m4a}",
+      "DZBasic/Classes/**/*.{xib,xml,gif,jpg,jpeg,pdf,png,json,plist,js,m4a}",
+      "DZBasic/Images.xcassets"
+    ]
+  },
+  "exclude_files": [
+    "DZBasic/Classes/CommonTools/Protocol/RegexKitLite.{h,m}",
+    "DZBasic/Classes/CommonTools/RecordAudio.{h,m}"
+  ],
+  "frameworks": [
+    "UIKit",
+    "Foundation",
+    "CoreLocation",
+    "QuartzCore"
+  ],
+  "libraries": "icucore",
+  "dependencies": {
+    "DZNetwork": [
+
+    ],
+    "DZUserData": [
+
+    ],
+    "DZThirdLib": [
+
+    ],
+    "DZURLRoutes": [
+
+    ]
+  },
+  "prefix_header_contents": "#ifdef __OBJC__\n#pragma clang diagnostic push\n#pragma clang diagnostic ignored \"-Wstrict-prototypes\"\n\n#import <KZExtensions/Extension.h>\n#import <KZLogger/KZLogger.h>\n\n#pragma clang diagnostic pop\n\n#import <objc/runtime.h>\n#import \"DZBasic.h\"\n\n#endif",
+  "subspecs": [
+    {
+      "name": "no-arc",
+      "source_files": [
+        "DZBasic/Classes/CommonTools/Protocol/RegexKitLite.{h,m}",
+        "DZBasic/Classes/CommonTools/RecordAudio.{h,m}"
+      ],
+      "requires_arc": false
+    }
+  ]
+}

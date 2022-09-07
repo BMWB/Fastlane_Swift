@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'DZKoinSwift_Example' do
+  pod 'DZKoinSwift', :path => '../'
+
+  target 'DZKoinSwift_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

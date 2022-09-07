@@ -1,0 +1,16 @@
+PODS:
+  - DZNetworkSwift (0.1.0)
+
+DEPENDENCIES:
+  - DZNetworkSwift (from `../`)
+
+EXTERNAL SOURCES:
+  DZNetworkSwift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DZNetworkSwift: be53a959189c6cd7a3888e5273bb872da69ccfbc
+
+PODFILE CHECKSUM: 0adfbbd788a28d95efd2c198597a6df52c8c8381
+
+COCOAPODS: 1.10.1

@@ -1,0 +1,6 @@
+module DZKoinProtocols {
+  umbrella header "DZKoinProtocols-umbrella.h"
+
+  export *
+  module * { export * }
+}

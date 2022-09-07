@@ -1,0 +1,11 @@
+${PODS_ROOT}/Target Support Files/Pods-SPOS-SPOSUITests/Pods-SPOS-SPOSUITests-frameworks.sh
+${PODS_ROOT}/../DZThirdLib/DZThirdLib/ThirdLibs/shumeng/du.framework
+${PODS_ROOT}/KZFMLiveSDK/KZFMLiveSDK/ImSDK.framework
+${PODS_ROOT}/KZFMLiveSDK/KZFMLiveSDK/zp_im_sdk.framework
+${PODS_ROOT}/KZFMLiveSDK/KZFMLiveSDK/zp-common-sdk.framework
+${PODS_ROOT}/KZFMLiveSDK/KZFMLiveSDK/WebRTC.framework
+${PODS_ROOT}/KZFMLiveSDK/KZFMLiveSDK/zp_file_sdk.framework
+${PODS_ROOT}/KZFMLiveSDK/KZFMLiveSDK/zp_eagle_eye.framework
+${PODS_ROOT}/KZFMLiveSDK/KZFMLiveSDK/ZPMatrixSDK.framework
+${PODS_ROOT}/KZFMLiveSDK/KZFMLiveSDK/ZPFaceLiveDetectSDK.framework
+${PODS_ROOT}/KZFMLiveSDK/KZFMLiveSDK/zp_httpclient_sdk.framework

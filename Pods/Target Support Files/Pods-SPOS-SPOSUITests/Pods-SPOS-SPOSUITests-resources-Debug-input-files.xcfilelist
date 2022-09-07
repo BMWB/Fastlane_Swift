@@ -1,0 +1,17 @@
+${PODS_ROOT}/Target Support Files/Pods-SPOS-SPOSUITests/Pods-SPOS-SPOSUITests-resources.sh
+${PODS_ROOT}/AMap3DMap/MAMapKit.framework/AMap.bundle
+${PODS_ROOT}/../DZBasic/DZBasic/Bundle/MJPhotoBrowser.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/DZBasic/DZBasic.bundle
+${PODS_ROOT}/../DZThirdLib/DZThirdLib/ThirdLibs/ATAuth/ATAuthSDK.framework/ATAuthSDK.bundle
+${PODS_ROOT}/../DZThirdLib/DZThirdLib/ThirdLibs/GT3/GT3Captcha.bundle
+${PODS_ROOT}/../DZThirdLib/DZThirdLib/ThirdLibs/WBCloudReflectionFaceVerify/Resources/detector_wb.bundle
+${PODS_ROOT}/../DZThirdLib/DZThirdLib/ThirdLibs/WBCloudReflectionFaceVerify/Resources/PEDat_wb.bundle
+${PODS_ROOT}/../DZThirdLib/DZThirdLib/ThirdLibs/WBCloudReflectionFaceVerify/Resources/ufa_wb.bundle
+${PODS_ROOT}/../DZThirdLib/DZThirdLib/ThirdLibs/WBCloudReflectionFaceVerify/Resources/WBCloudReflectionFaceVerify.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/DZUserData/DZUserData.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/KZPhotosBrowser/KZPhotoBrowser.bundle
+${PODS_ROOT}/KZTools/kztools/resources/en.lproj
+${PODS_ROOT}/KZTools/kztools/resources/zh-Hans.lproj
+${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle
+${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle
+${PODS_ROOT}/Weibo_SDK/libWeiboSDK/WeiboSDK.bundle

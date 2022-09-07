@@ -1,0 +1,6 @@
+use_frameworks!
+target 'DZKoinProtocols_Tests' do
+  pod 'DZKoinProtocols', :path => '../'
+  
+  
+end

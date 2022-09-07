@@ -1,0 +1,6 @@
+framework module DZKoinSwift {
+  umbrella header "DZKoinSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+module Pods_SPOS_SPOSUITests {
+  umbrella header "Pods-SPOS-SPOSUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

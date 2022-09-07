@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'DZModelA_Example' do
+  pod 'DZModelA', :path => '../'
+
+  target 'DZModelA_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

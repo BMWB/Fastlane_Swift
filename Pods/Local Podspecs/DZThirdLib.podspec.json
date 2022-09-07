@@ -1,0 +1,194 @@
+{
+  "name": "DZThirdLib",
+  "version": "0.1.0",
+  "summary": "DZThirdLib 三方库",
+  "description": "三方库 集合",
+  "homepage": "https://www.dianzhangzhipin.com/",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wangzhenxing": "wangzhenxing@kanzhun.com"
+  },
+  "source": {
+    "git": "git@git.kanzhun-inc.com:rd9/managerzp.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "pod_target_xcconfig": {
+    "ENABLE_BITCODE": "NO"
+  },
+  "source_files": [
+    "DZThirdLib/Classes/**/*.{h,m,cpp,c,mm}"
+  ],
+  "resources": [
+    "DZThirdLib/Assets/**/*.{xcasset,bundle}"
+  ],
+  "vendored_libraries": [
+    "DZThirdLib/**/libWeChatSDK.a",
+    "DZThirdLib/**/libsnappy.a"
+  ],
+  "vendored_frameworks": [
+    "DZThirdLib/**/ATAuthSDK.framework",
+    "DZThirdLib/**/GT3Captcha.framework",
+    "DZThirdLib/**/faceLiveReflect.framework",
+    "DZThirdLib/**/NextCV.framework",
+    "DZThirdLib/**/rapidnet_ios.framework",
+    "DZThirdLib/**/WBCloudReflectionFaceVerify.framework",
+    "DZThirdLib/**/YTCommon.framework",
+    "DZThirdLib/**/YTIllumination.framework",
+    "DZThirdLib/**/YTPoseDetector.framework",
+    "DZThirdLib/**/YTTrackProWB.framework",
+    "DZThirdLib/**/iflyMSC.framework",
+    "DZThirdLib/**/shumeng/du.framework"
+  ],
+  "frameworks": [
+    "UIKit",
+    "Foundation",
+    "AVFoundation",
+    "MobileCoreServices",
+    "CoreVideo",
+    "Accelerate",
+    "Security",
+    "SystemConfiguration",
+    "CoreMedia",
+    "AudioToolbox",
+    "CoreTelephony",
+    "ImageIO",
+    "AdSupport",
+    "CoreGraphics",
+    "WebKit",
+    "QuartzCore"
+  ],
+  "libraries": [
+    "z",
+    "c++"
+  ],
+  "dependencies": {
+    "AFNetworking": [
+      "3.2.1"
+    ],
+    "Mantle": [
+      "2.1.0"
+    ],
+    "CacheKit": [
+      "0.6.4"
+    ],
+    "FMDB": [
+      "2.7.5"
+    ],
+    "SQLCipher": [
+      "4.4.3"
+    ],
+    "BlocksKit/Core": [
+      "2.2.5"
+    ],
+    "SVProgressHUD": [
+      "2.2.5"
+    ],
+    "Masonry": [
+      "1.1.0"
+    ],
+    "UMCommon": [
+      "7.3.5"
+    ],
+    "MJRefresh": [
+      "3.1.15.7"
+    ],
+    "SDWebImage": [
+      "4.4.2"
+    ],
+    "JXCategoryView": [
+      "1.5.2"
+    ],
+    "FLAnimatedImage": [
+      "1.0.12"
+    ],
+    "AMap3DMap": [
+      "8.1.0"
+    ],
+    "AMapSearch": [
+      "8.1.0"
+    ],
+    "AutoCoding": [
+      "2.2.3"
+    ],
+    "HMSegmentedControl": [
+      "1.5.4"
+    ],
+    "UIAlertView+Blocks": [
+      "0.9"
+    ],
+    "UMCSecurityPlugins": [
+      "1.0.6"
+    ],
+    "ProtocolBuffers": [
+      "1.9.10"
+    ],
+    "Aspects": [
+      "1.4.1"
+    ],
+    "AliyunOSSiOS": [
+      "2.10.7"
+    ],
+    "lottie-ios": [
+      "2.5.3"
+    ],
+    "Weibo_SDK": [
+      "3.2.7"
+    ],
+    "KZExtensions": [
+      "0.4.4"
+    ],
+    "KZLogger": [
+      "0.2.3"
+    ],
+    "KZTools/Camera": [
+      "0.6.7"
+    ],
+    "KZTools/PhotoLibrary": [
+      "0.6.7"
+    ],
+    "KZTools/Microphone": [
+      "0.6.7"
+    ],
+    "KZTools/Location": [
+      "0.6.7"
+    ],
+    "KZTools/AppTracking": [
+      "0.6.7"
+    ],
+    "KZAltmanManager": [
+      "0.3.34"
+    ],
+    "KZAPM": [
+      "0.2.6"
+    ],
+    "KZModelCast": [
+      "0.3.5"
+    ],
+    "KZPhotosBrowser": [
+      "1.0.23"
+    ],
+    "KZFMLiveSDK": [
+      "3.2.85"
+    ],
+    "KZMqttSDK": [
+      "0.3.9"
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "ThirdLibs",
+      "source_files": [
+        "DZThirdLib/ThirdLibs/**/*.{h,m,cpp,c,mm}"
+      ],
+      "resources": [
+        "DZThirdLib/ThirdLibs/**/*.{xcasset,bundle}"
+      ]
+    }
+  ]
+}

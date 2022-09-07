@@ -1,0 +1,16 @@
+PODS:
+  - DZKoinSwift (0.1.0)
+
+DEPENDENCIES:
+  - DZKoinSwift (from `../`)
+
+EXTERNAL SOURCES:
+  DZKoinSwift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DZKoinSwift: 93104b704150107f52ff7a3dbb9c4c9a1657df98
+
+PODFILE CHECKSUM: f3658894dbc902712206a151b4defcbb08840587
+
+COCOAPODS: 1.11.2
