@@ -24,18 +24,6 @@ target 'SPOS' do
   
   pod 'DZKoinProtocols', :path => './DZKoinProtocols',:inhibit_warnings => false
   
-#  # 基础模块
-#  pod 'DZBasic',          :path => './DZBasic',      :inhibit_warnings => false
-#  # 网络模块
-#  pod 'DZNetwork',        :path => './DZNetwork',    :inhibit_warnings => false
-#  # 用户基础数据
-#  pod 'DZUserData',       :path => './DZUserData',   :inhibit_warnings => false
-#  # 项目中三方库
-#  pod 'DZThirdLib',       :path => './DZThirdLib',   :inhibit_warnings => false
-#
-#  pod 'DZURLRoutes',      :path => './DZURLRoutes',  :inhibit_warnings => false
-#  pod 'DZCarthage', :path => '../SPOSB/DZCarthage',:inhibit_warnings => false
-  
 
   target 'SPOSTests' do
     inherit! :search_paths
